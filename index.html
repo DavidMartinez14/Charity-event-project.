@@ -3,10 +3,11 @@
 <html>
 <head>
   <title>Charity event</title>
-  <link href="main.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Risque" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Bungee" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Risque" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Bungee" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
     </header>
 <section id="Hero">
-<img class="middle" src="Run_downtown_5k.jpg" alt="People runnning in the rundown 5k">
+<img src="img/Run_downtown_5k.jpg" alt="People runnning in the rundown 5k">
 </section>
 
     <section id="event">
@@ -35,115 +36,150 @@
   </section>
     <section id="about">
   <h2 id="about">About the event</h2>
-  <caption>Rules of the race</caption>
+    <caption>Rules of the race</caption>
   <table id="Price">
-<thead>
-<th>#</th>
-<th>Name of the rule</th>
-<th>Description</th>
-</thead>
+    <thead>
+      <th>#</th>
+      <th>Name of the rule</th>
+      <th>Description</th>
+    </thead>
 
-<tbody>
+    <tbody>
 
-<tr>
-<td>Rule #1</td>
-<td>Good Behavior</td>
-<td>We espect mature behavior in this race.</td>
-</tr>
+      <tr>
+        <td>Rule #1</td>
+  <td>Good Behavior</td>
+  <td>We espect mature behavior in this race.</td>
+  </tr>
 
-<tr>
-<td>Rule #2 </td>
-<td>Do not touch special equipment without permission</td>
-<td>special equipment will be given to you before the race for preparation, do not activate the jetpack before it's estrictly told to you to do so.</td>
-</tr>
+  <tr>
+  <td>Rule #2 </td>
+  <td>Do not touch special equipment without permission</td>
+  <td>special equipment will be given to you before the race for preparation, do not activate the jetpack before it's estrictly told to you to do so.</td>
+  </tr>
 
-<tr>
-<td>Rule #3</td>
-<td>Inform us if you have a disease of some kind</td>
-<td>If you are sick, please do not push yourself and tells us right away that you're sick and we'll send you home<delete>back to mommma</delete></td>
-</tr>
+  <tr>
+  <td>Rule #3</td>
+  <td>Inform us if you have a disease of some kind</td>
+  <td>If you are sick, please do not push yourself and tells us right away that you're sick and we'll send you home</td>
+  </tr>
 
-<tr>
-<td>Rule #4</td>
-<td>No drugs or alcohol</td>
-<td>You can bring food and drinks if you wish to eat before the race, lunch will be schedule 1 hour before the race, but we will not accept any use of drugs or alcohol in the race.</td>
-</tr>
+  <tr>
+  <td>Rule #4</td>
+  <td>No drugs or alcohol</td>
+  <td>You can bring food and drinks if you wish to eat before the race, lunch will be schedule 1 hour before the race, but we will not accept any use of drugs or alcohol in the race.</td>
+  </tr>
 
-</tbody>
+  </tbody>
 
-<footer>
-<tr>
-  <td>Thanks for reading</td>
-</tr>
-</footer>
+  <footer>
+  <tr>
+    <td>Thanks for reading</td>
+  </tr>
+  </footer>
 
-  </table>
+    </table>
 
-    <p>Team-DMZ:We are scientists but we also know how exciting it would be to use a jetpack, so we made a deal with the rundown 5k charity.They took the jetpacks as a donation for future events.Of course we kept working and proving them to this day and we're very proud of the results.</h2>
-    </section>
-      <section id="signup">
-        <h2 id="signup"> Order Now your jetpack t-shirt now!</h2>
+    <p><b>Team-DMZ:We are scientists but we also know how exciting it would be to use a jetpack, so we made a deal with the rundown 5k charity.They took the jetpacks as a donation for future events.Of course we kept working and upgrading them to this day and we're very proud of the results.</b></p>
+      </section>
+        <section id="signup">
+          <h2 id="signup"> Order Now!</h2>
 
-  <form action="thanks.Html" method="post">
-     <fieldset>
-       <legend>Shipping info</legend>
-     <label for="name">First name</label>
-    <input id="name" type="text" name="firstname">
-    <br>
+        <form action="Thanks for buying.html">
+           <fieldset>
+             <legend>Ship To</legend>
+             <div class="row">
+               <div class="col-md-6">
+                 <label for="first_name">First name:</label>
+                 <input id="first_name" type="text" name="first_name">
+               </div>
+               <div class="col-md-6">
+                 <label for="last_name">Last name:</label>
+                 <input id="last_name" type="text" name="last_name">
+               </div>
+             </div>
 
-     <label for="address">address</label>
-     <input id="address" type="text" name="Address">
-     <br>
+             <div class="row">
+               <div class="col-xs-12">
+                 <label for="address">Address:</label>
+                 <input id="address" type="text" name="address">
+               </div>
+             </div>
 
-    <label for="city">City</label>
-    <input id="city" type="text" name="City">
-    <br>
+             <div class="row">
+               <div class="col-md-6">
+                 <label for="city">City:</label>
+                 <input id="city" type="text" name="city">
+               </div>
+               <div class="col-sm-6 col-md-3">
+                 <label for="state4">State:</label>
+                 <select id="state4">
+                   <option value="">Select one...</option>
+                   <option value="">Alabama</option>
+                   <option value="">Alaska</option>
+                   <option value="">Arizona</option>
+                 </select>
+               </div>
+               <div class="col-sm-6 col-md-3">
+                 <label for="zip4">Zip Code:</label>
+                 <input id="zip4" type="text" name="zip">
+               </div>
+             </div>
+           </fieldset>
 
-    <label for="state">State</label>
-    <input type="text" name="State" size="2">
-    <br>
+           <fieldset>
+             <legend>Contact Info</legend>
+             <div class="row">
+               <div class="col-md-6">
+                 <label for="email4">Email:</label>
+                 <input id="email4" type="text" name="email">
+               </div>
+               <div class="col-md-6">
+                 <label for="phone4">Phone:</label>
+                 <input id="phone4" type="text" name="phone">
+               </div>
+             </div>
+           </fieldset>
 
-    <label for="zip">Zip</label>
-    <input type="text" name="Zip"> <br>
-</fieldset>
+           <fieldset>
+             <legend>Payment Details</legend>
+             <div class="row">
+               <div class="col-md-6">
+                 <label for="card_num4">Credit Card Number:</label>
+                 <input id="card_num4" type="text" name="card_num">
+               </div>
+               <div class="col-sm-4 col-md-2">
+                 <label for="state4">Exp Month:</label>
+                 <select id="state4">
+                   <option value="">1</option>
+                   <option value="">2</option>
+                   <option value="">3</option>
+                 </select>
+               </div>
+               <div class="col-sm-4 col-md-2">
+                 <label for="state4">Exp Year:</label>
+                 <select id="state4">
+                   <option value="">2016</option>
+                   <option value="">2017</option>
+                   <option value="">2018</option>
+                 </select>
+               </div>
+               <div class="col-sm-4 col-md-2">
+                 <label for="cvn4">CVN:</label>
+                 <input id="cvn4" type="text" name="cvn">
+               </div>
+             </div>
+           </fieldset>
 
-<fieldset>
-  <legend>Order info</legend>
-  <label for="Size">Size:</label>
-  <select name="Size" id="Size">
-    <option value="Small">Small</option>
-    <option value="Medium">Medium</option>
-    <option value="Large">Large</option>
-       </select>
-
-       <label for="Quantity"> Quantity:</label>
-       <input type="text" name="Quantity">
-       <br>
-    </fieldset>
-
-    <fieldset>
-      <legend>payment info</legend>
-      Card Type:
-     <input id="visa" type="radio" name="Credit card" value="Visa">
-     <label for="visa">visa</label>
-
-     <input id="Master card" type="radio" name="Credit card" value="Master card">
-     <label for="Master card">Master Card</label>
-
-    <input id="Discover"type="radio" name="Credit card" value="Discover">
-    <label for="Discover">Discover</label>
-
-    <label for="cc_number">Credit card number:</label>
-    <input id="cc_number" type="text" name="cc_number" size="16">
-  </fieldset>
-    <input type="submit" value="submit"> <input type="reset">
-    Credit card number: <input type="text" name="Credit card number"><br>
-</form>
-
-    </section>
-
+           <div class="row">
+             <div class="col-xs-12 push-right">
+               <button type="submit">Place Order</button>
+             </div>
+           </div>
+         </form>
+       </section>
     <footer>
-   <p>Made by: David, this is all not real, it's a school project, hope you enjoyed</p>
+    <p>Made by: David;Please understand that this is all not real and it's just for a school project, thank you and enjoy</p>
     </footer>
 
   </div>
