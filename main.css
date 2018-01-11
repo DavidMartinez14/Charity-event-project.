@@ -1,9 +1,11 @@
 body {
+  font-family: 'Bitter', serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color:#002B36;
   margin-left: auto;
-margin-right: auto;
-max-width: 700px;
-padding: 7px
+  margin-right: auto;
+  max-width: 700px;
+  padding: 7px;
 }
 
 div.container {
@@ -12,6 +14,7 @@ div.container {
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
+    "Hero"
     "about"
     "event"
     "signup"
@@ -36,10 +39,13 @@ padding: 7px;
 section {
     min-height: 300px;
 }
-
+section#Hero {
+  grid-area: Hero;
+}
 section#about {
   background-color: #C60000;
   grid-area: about;
+  color: #d8c10f
 }
 
 section#event {
@@ -50,6 +56,7 @@ section#event {
 section#signup {
   background-color:#0A0A0A;
   grid-area: signup;
+  color: #FFFFFF
 }
 
 footer {
@@ -103,8 +110,8 @@ img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%
 }
 p {
 line-height: 1.6;
+color: #000000
 }
